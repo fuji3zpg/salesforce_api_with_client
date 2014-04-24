@@ -1,4 +1,3 @@
-# class SalesforceUsersController < ApplicationController
 class SalesforceUsersController < ApplicationController
   def index
     salesforce_client
