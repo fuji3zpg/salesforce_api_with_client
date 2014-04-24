@@ -1,0 +1,21 @@
+<h1>SalesforceUsers#index</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Username</th>
+      <th>Alias</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @users.each do |user| %>
+      <tr>
+        <td><%= link_to user.Id, "/salesforce_users/#{user.Id}"  %></td>
+        <td><%= user.Username %></td>
+        <td><%= user.Alias %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
