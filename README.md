@@ -1,6 +1,6 @@
 == README
 
-Ruby on Railsを使って、Salesforce APIにアクセスし、Salesforceユーザデータの一覧と詳細を表示します。
+Ruby on Railsを使って、Salesforce APIにアクセスし、Salesforceユーザの一覧と詳細を表示します。
 
 ### コードの解説
 
