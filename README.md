@@ -1,6 +1,6 @@
 == README
 
-Ruby on Railsを使って、Zendesk APIにアクセスし、Zendeskのチケットを表示してみます。
+Ruby on Railsを使って、Salesforce APIにアクセスし、Salesforceユーザデータの一覧と詳細を表示します。
 
 ### コードの解説
 
